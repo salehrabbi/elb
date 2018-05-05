@@ -274,3 +274,143 @@ section {
   background: #c51a08;
   padding: 11px 38px;
 }
+
+/*========================== banner-small =====================*/
+.banner-small {
+  padding: 100px 0;
+}
+.banner-small p {
+  font-size: 14px;
+}
+.banner-small h2 {
+  font-family: "Encode Sans Condensed", sans-serif;
+  margin-bottom: 0;
+}
+
+/*========================== review =====================*/
+.review {
+  background: url(../images/review.jpg) no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding-top: 150px;
+  padding-bottom: 270px;
+  min-height: 984px;
+}
+.review .section-title {
+  color: #fff;
+}
+.review .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.review .img {
+  float: left;
+}
+.review .img img {
+  height: 166px;
+  width: 166px;
+  border-radius: 50%;
+}
+.review .text {
+  float: left;
+  width: calc(100% - 166px);
+  padding-left: 25px;
+}
+.review .text p {
+  font-size: 14px;
+  line-height: 1.5714285714;
+}
+.review .text h4 {
+  margin: 15px 0;
+  font-weight: 600;
+  font-size: 20px;
+}
+.review .carousel-indicators {
+  position: static;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin-top: 190px;
+  text-align: center;
+}
+.review .carousel-indicators li {
+  margin: 0 3px;
+  height: 10px;
+  width: 10px;
+  background: #fff;
+  border: none;
+}
+.review .carousel-indicators li.active {
+  background: #c51a08;
+}
+
+/*========================== contact =====================*/
+.contact {
+  padding-top: 150px;
+  padding-bottom: 180px;
+}
+.contact .content {
+  padding-left: 50px;
+}
+.contact .address .col-md-4 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.contact .address i {
+  font-size: 20px;
+  color: #c51a08;
+  margin-bottom: 15px;
+}
+.contact .address p, .contact .address a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #444444;
+}
+.contact .contact-form {
+  margin-top: 55px;
+}
+.contact .contact-form input, .contact .contact-form textarea {
+  width: 100%;
+  border: none;
+  background: none;
+  -webkit-box-shadow: 0 2px 12px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 2px 12px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  height: 50px;
+  margin-bottom: 30px;
+  padding: 15px 25px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Encode Sans Condensed", sans-serif;
+  color: #999999;
+}
+.contact .contact-form textarea {
+  height: 200px;
+}
+.contact .contact-form button {
+  background: #c51a08;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 50px;
+  padding: 10px 56px;
+  margin-top: 30px;
+}
+.contact .map {
+  background: url(../images/map.jpg) no-repeat left top;
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 41.66666667%;
+  left: 0;
+  top: 0;
+}

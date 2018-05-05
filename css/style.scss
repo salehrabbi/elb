@@ -245,3 +245,30 @@ section {
         }
     }
 }
+
+/*========================== banner =====================*/
+.banner{
+    background: url(../images/banner.jpg) no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    p{
+        font-size: 16px;
+    }
+    h2{
+        margin: 0;
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 8px;
+        margin-bottom: 25px;
+    }
+    a.btn{
+        border-radius: 50px;
+        font-size: 12px;
+        font-weight: 500;
+        color: #fff;
+        background: #c51a08;
+        padding: 11px 38px;
+    }
+}

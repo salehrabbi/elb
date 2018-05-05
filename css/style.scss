@@ -428,3 +428,36 @@ section {
         }
     }
 }
+/*========================== main-footer =====================*/
+.main-footer{
+    padding: 80px 45px;
+    .footer-menu{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        li{
+            display: inline-block;
+            margin: 10px 0;
+            margin-right: 40px;
+            &:last-child{
+                margin-right: 0;
+            }
+            a{
+                text-transform: uppercase;
+                font-family: $e;
+                font-weight: 600;
+                font-size: 14px;
+                color: #444444;
+                &:hover{
+                    color: #006c76;
+                }
+            }
+        }
+    }
+    .copy{
+        margin: 10px 0;
+        font-size: 14px;
+        font-family: $e;
+        text-align: right;
+    }
+}

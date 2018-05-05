@@ -30,11 +30,11 @@ section {
     bottom: 60px;
     left: 40px;
     p {
-        color: #fff;
+        
         font-size: 30px;
         display: flex;
         align-items: center;
-        img {
+        svg {
             margin: 0 8px;
         }
         span {
@@ -133,7 +133,7 @@ section {
             margin-top: 10px;
         }
     }
-    .item-small-wraper{
+    .item-small-wraper {
         padding-top: 85px;
     }
     .item-small {
@@ -145,6 +145,102 @@ section {
                 font-size: 20px;
                 color: #c51a08;
                 margin-right: 15px;
+            }
+        }
+    }
+}
+
+/*========================== counter-up =====================*/
+
+.counter-up {
+    background: url(../images/counter-up.jpg) no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: (120px-15);
+    .item {
+        padding: 15px 0;
+        h3 {
+            margin: 0;
+            font-size: 30px;
+            font-weight: 600;
+            line-height: (42/30);
+            margin-bottom: 5px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+}
+
+/*========================== skill =====================*/
+
+.skill {
+    padding-bottom: 100px;
+    padding-top: (150px-30);
+    min-height: 1150px;
+    .nav-tabs {
+        border-bottom: 2px solid #e8e8e8;
+        li {
+            width: 50%;
+            text-align: center;
+            a {
+                border: none !important;
+                color: #444444;
+                font-size: 24px;
+                letter-spacing: (50em/1000);
+                padding: 20px 15px;
+                &:hover {
+                    background: none;
+                }
+            }
+        }
+        li.active {
+            a {
+                border-bottom: 6px solid #a90e06 !important;
+                font-weight: 700;
+            }
+        }
+    }
+    .tab-content {
+        .head {
+            padding-top: 85px;
+            padding-bottom: 50px;
+            h2 {
+                margin: 0;
+                font-weight: 700;
+                font-size: 50px;
+                margin-bottom: 5px;
+            }
+            p {
+                font-size: 18px;
+            }
+        }
+        .pie_progress {
+            padding: 15px 0;
+            .pie_progress__svg svg {
+                transform: rotate(90deg)
+            }
+        }
+        .pie_progress__label {
+            margin-top: 0;
+            font-size: 14px;
+            color: #7d7d7d;
+            font-family: $e;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        .text{
+            padding-left: (70px-15);
+            padding-top: 50px;
+            p{
+                font-size: 14px;
+                line-height: (24/14);
+            }
+            h4{
+                margin: 0;
+                font-size: 20px;
+                font-weight: 600;
+                margin: 30px 0;
             }
         }
     }

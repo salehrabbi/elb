@@ -353,12 +353,15 @@ section {
 }
 
 /*========================== contact =====================*/
-.contact {
+.contact .content {
+  padding-left: 65px;
   padding-top: 150px;
   padding-bottom: 180px;
-}
-.contact .content {
-  padding-left: 50px;
+  -webkit-box-shadow: -17px 0 5px -10px rgba(0, 0, 0, 0.08);
+          box-shadow: -17px 0 5px -10px rgba(0, 0, 0, 0.08);
+  z-index: 2;
+  position: relative;
+  background: #fff;
 }
 .contact .address .col-md-4 {
   padding-top: 15px;
@@ -369,7 +372,8 @@ section {
   color: #c51a08;
   margin-bottom: 15px;
 }
-.contact .address p, .contact .address a {
+.contact .address p,
+.contact .address a {
   font-size: 14px;
   font-weight: 500;
   color: #444444;
@@ -377,7 +381,8 @@ section {
 .contact .contact-form {
   margin-top: 55px;
 }
-.contact .contact-form input, .contact .contact-form textarea {
+.contact .contact-form input,
+.contact .contact-form textarea {
   width: 100%;
   border: none;
   background: none;
@@ -410,7 +415,20 @@ section {
   background-size: cover;
   position: absolute;
   height: 100%;
-  width: 41.66666667%;
+  width: 50%;
   left: 0;
   top: 0;
+}
+.contact .section-order {
+  background: #fff;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+}
+.contact .section-order p {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 170px;
+  width: 170px;
 }

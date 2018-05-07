@@ -25,5 +25,5 @@ $(function(){
 	$('#Grid').mixitup();
 });
 			
-
+new WOW().init();
 

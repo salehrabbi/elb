@@ -59,6 +59,42 @@ section {
     }
 }
 
+/*========================== main-header =====================*/
+
+.main-header {
+    padding: 0 45px;
+    .navbar-default {
+        background: none;
+        margin: 0;
+        border: none;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+    .navbar-brand {
+        height: auto;
+    }
+    .navbar-nav {
+        > li {
+            margin-right: 20px;
+            &:last-child {
+                margin-right: 0;
+            }
+            > a {
+                font-family: $e;
+                font-size: 14px;
+                font-weight: 600;
+                color: #444444;
+                &:hover {
+                    color: #a90e06;
+                }
+            }
+        }
+    }
+}
+
+
+
 /*========================== Slider =====================*/
 
 .slider {
@@ -156,7 +192,11 @@ section {
     background: url(../images/counter-up.jpg) no-repeat;
     background-size: cover;
     color: #fff;
-    padding: (120px-15);
+
+    .overlay {
+        background: rgba(169, 14, 6, .70);
+        padding: (120px-15);
+    }
     .item {
         padding: 15px 0;
         h3 {
@@ -252,8 +292,11 @@ section {
     background: url(../images/banner.jpg) no-repeat;
     background-size: cover;
     color: #fff;
-    padding-top: 70px;
-    padding-bottom: 90px;
+    .overlay {
+        padding-top: 70px;
+        padding-bottom: 90px;
+        background: rgba(0, 108, 118, .70);
+    }
     p {
         font-size: 16px;
     }
@@ -277,7 +320,11 @@ section {
 /*========================== banner-small =====================*/
 
 .banner-small {
-    padding: 100px 0;
+
+    .overlay {
+        padding: 100px 0;
+        background: rgba(188, 13, 4, .70);
+    }
     p {
         font-size: 14px;
     }
@@ -324,17 +371,17 @@ section {
         margin: 0;
         list-style: none;
         margin: 0 -15px;
-        
+
         .mix {
             width: (100%/3);
             float: left;
-            
-            
+
+
             padding: 15px;
             img {
                 width: 100%;
             }
-            .item{
+            .item {
                 position: relative;
                 overflow: hidden;
             }
@@ -381,9 +428,13 @@ section {
     background: url(../images/review.jpg) no-repeat;
     background-size: cover;
     color: #fff;
-    padding-top: 150px;
-    padding-bottom: 270px;
-    min-height: 984px;
+
+    .overlay {
+        padding-top: 150px;
+        padding-bottom: 270px;
+        min-height: 984px;
+        background: rgba(3, 101, 110, 0.85);
+    }
     .section-title {
         color: #fff;
     }

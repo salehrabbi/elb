@@ -1,0 +1,140 @@
+@media (max-width: 1199px) {
+  .slider .item h2 {
+    font-size: 55px; }
+
+  .slider .item .container {
+    min-height: 700px; }
+
+  .address .col-xs-12 {
+    padding-top: 15px;
+    padding-bottom: 15px; } }
+@media (max-width: 991px) {
+  .skill .tab-content .text {
+    padding-left: 0;
+    padding-top: 0; }
+
+  .main-footer .footer-menu,
+  .main-footer .copy {
+    text-align: center; } }
+@media (max-width: 767px) {
+  .slider .item h2 {
+    font-size: 40px; }
+
+  .service {
+    padding-top: 100px;
+    padding-bottom: 100px; }
+
+  .section-title {
+    padding-bottom: 70px; }
+
+  .service .item {
+    padding: 30px 0; }
+
+  .section-title h2, .skill .tab-content .head h2 {
+    font-size: 30px; }
+
+  .section-order {
+    bottom: 15px;
+    left: 15px; }
+
+  .skill {
+    padding-bottom: 100px;
+    padding-top: 80px;
+    min-height: auto; }
+
+  .skill .tab-content .text {
+    margin-top: 30px; }
+
+  .service .item-small-wraper {
+    padding-top: 50px; }
+
+  .portfolio {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    min-height: auto; }
+
+  .portfolio #Grid .mix {
+    width: 50%; }
+
+  .review .overlay {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    min-height: 841px; }
+
+  .review .carousel-indicators {
+    top: 180%; }
+
+  .contact .map {
+    display: none; }
+
+  .contact .content {
+    padding-left: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-shadow: none; }
+
+  .contact .section-order {
+    bottom: 15px;
+    left: 15px;
+    z-index: 4; }
+    .contact .section-order p {
+      height: auto;
+      width: auto; }
+
+  .main-footer {
+    padding: 30px 15px; }
+
+  .address .col-xs-12 {
+    text-align: center; } }
+@media (max-width: 575px) {
+  .counter-up .item {
+    text-align: center; }
+
+  .service .item {
+    text-align: center;
+    max-width: 350px;
+    margin: 0 auto; }
+
+  .slider .item .container {
+    min-height: 450px; }
+
+  .slider .item h2 {
+    font-size: 30px; }
+
+  .main-footer .footer-menu li {
+    margin-right: 10px; } }
+@media (max-width: 480px) {
+  .portfolio #Grid .mix {
+    width: 100%; }
+
+  .skill .nav-tabs li a {
+    font-size: 18px; }
+
+  .review .img {
+    width: 100%;
+    text-align: center; }
+
+  .review .text {
+    padding-left: 0;
+    width: 100%;
+    margin-top: 50px; }
+
+  .review .carousel-indicators {
+    top: 120%; }
+
+  .review .overlay {
+    min-height: 960px; }
+
+  .banner h2 {
+    font-size: 25px; }
+
+  .slider .item h2 {
+    font-size: 22px; }
+
+  .slider .item p {
+    font-size: 14px; }
+
+  .slider .social-slider {
+    right: 15px; } }
+
+/*# sourceMappingURL=responsive.css.map */

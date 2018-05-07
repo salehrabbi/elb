@@ -18,6 +18,7 @@ p {
 
 section {
     position: relative;
+    //    overflow: hidden;
 }
 
 .div-center {
@@ -195,7 +196,7 @@ section {
 
     .overlay {
         background: rgba(169, 14, 6, .70);
-        padding: (120px-15);
+        padding: (120px-15) 0;
     }
     .item {
         padding: 15px 0;
@@ -466,12 +467,14 @@ section {
         }
     }
     .carousel-indicators {
-        position: static;
+        position: absolute;
         width: 100%;
         padding: 0;
-        margin: 0;
-        margin-top: 190px;
         text-align: center;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 220%;
         li {
             margin: 0 3px;
             height: 10px;

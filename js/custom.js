@@ -20,4 +20,10 @@ jQuery(document).ready(function ($) {
 
 });
 
+		
+$(function(){
+	$('#Grid').mixitup();
+});
+			
+
 

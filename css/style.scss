@@ -287,6 +287,94 @@ section {
     }
 }
 
+/*========================== portfolio =====================*/
+
+.portfolio {
+    padding-top: 150px;
+    padding-bottom: 260px;
+    min-height: 1098px;
+    .section-title {
+        padding-bottom: 60px;
+    }
+    .mixitup-controll {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        margin-bottom: 30px;
+        li {
+            display: inline-block;
+            margin: 5px 0;
+            margin-right: 25px;
+            font-family: $e;
+            color: #444444;
+            font-size: 12px;
+            cursor: pointer;
+            padding: 10px 25px;
+            border-radius: 50px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        li.active {
+            background: #e4e4e4;
+        }
+    }
+    #Grid {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        margin: 0 -15px;
+        
+        .mix {
+            width: (100%/3);
+            float: left;
+            
+            
+            padding: 15px;
+            img {
+                width: 100%;
+            }
+            .item{
+                position: relative;
+                overflow: hidden;
+            }
+            .overlay {
+                position: absolute;
+                background: #a90e06;
+                height: 100%;
+                width: 100%;
+                top: -50%;
+                left: 0;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-flow: column wrap;
+                text-decoration: none;
+                opacity: 0;
+                transition: .5s;
+
+                h3 {
+                    margin: 0;
+                    font-size: 20px;
+                    font-weight: 600;
+                    margin-bottom: 8px;
+                }
+                p {
+                    font-size: 12px;
+                    font-family: $e;
+                }
+            }
+            &:hover {
+                .overlay {
+                    opacity: 1;
+                    top: 0;
+                }
+            }
+        }
+    }
+}
+
 /*========================== review =====================*/
 
 .review {
@@ -428,33 +516,35 @@ section {
         }
     }
 }
+
 /*========================== main-footer =====================*/
-.main-footer{
+
+.main-footer {
     padding: 80px 45px;
-    .footer-menu{
+    .footer-menu {
         padding: 0;
         margin: 0;
         list-style: none;
-        li{
+        li {
             display: inline-block;
             margin: 10px 0;
             margin-right: 40px;
-            &:last-child{
+            &:last-child {
                 margin-right: 0;
             }
-            a{
+            a {
                 text-transform: uppercase;
                 font-family: $e;
                 font-weight: 600;
                 font-size: 14px;
                 color: #444444;
-                &:hover{
+                &:hover {
                     color: #006c76;
                 }
             }
         }
     }
-    .copy{
+    .copy {
         margin: 10px 0;
         font-size: 14px;
         font-family: $e;
